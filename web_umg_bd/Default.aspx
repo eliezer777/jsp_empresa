@@ -14,7 +14,7 @@
     <asp:Label ID="lbl_sangre" runat="server" CssClass="badge" Text="marca"></asp:Label>
     <asp:DropDownList ID="drop_marca" runat="server" CssClass="form-control" OnSelectedIndexChanged="drop_marca_SelectedIndexChanged"></asp:DropDownList>
     <asp:Button ID="btn_agregar" runat="server" Text="Agregar" CssClass="btn btn-info btn-lg" OnClick="btn_agregar_Click" />
-    <asp:Button ID="btn_modificar" runat="server" OnClick="btn_modificar_Click" Text="Modificar" CssClass="btn btn-success btn-lg" Visible="False" />
+    
     <asp:Label ID="lbl_mensaje" runat="server" CssClass="alert-info"></asp:Label>
     <asp:GridView ID="grid_productos" runat="server" AutoGenerateColumns="False" CssClass="table-condensed" DataKeyNames="id,id_marca" OnRowDeleting="grid_productos_RowDeleting" OnSelectedIndexChanged="grid_productos_SelectedIndexChanged">
         <Columns>
